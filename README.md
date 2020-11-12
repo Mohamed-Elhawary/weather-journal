@@ -17,12 +17,12 @@ This App is about working with web API's and asynchronous code, creating a web a
 
 * Note that you can not run the App in the Client Side Locally, it must be runned as a Server Side App, so you can follow the few Next Steps :-
 
-    1- Fork, clone or download this repository to your local machine.
-    2- Be sure that you install the [Node.js](https://nodejs.org/en/) environment in your machine.
-    3- Open your terminal and Be sure that you are inside the correct destination of the App, while you must be in the same path of the server.js file and the website folder.
-    4- inside your terminal run these commands:-
+    - 1- Fork, clone or download this repository to your local machine.
+    - 2- Be sure that you install the [Node.js](https://nodejs.org/en/) environment in your machine.
+    - 3- Open your terminal and Be sure that you are inside the correct destination of the App, while you must be in the same path of the server.js file and the website folder.
+    - 4- inside your terminal run these commands:-
     
-    * to install dependencies.
+        * to install dependencies.
         ```
         npm install
         ```
@@ -30,7 +30,7 @@ This App is about working with web API's and asynchronous code, creating a web a
         ```
         node server.js
         ```
-    5- Once the app server is running visit (localhost:8000) in the browser to view the app and now you can treat with it as shown above in the Demo.
+    - 5- Once the app server is running visit (localhost:8000) in the browser to view the app and now you can treat with it as shown above in the Demo.
     
 ## What Happened Behind the Scenes  
 
