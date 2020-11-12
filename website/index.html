@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!--Load Google Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap"> 
+    <!-- Load Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Load Bootstrap Framework for ONLY making the Layout is Responsive quickly-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Load my Gloabal Helper Classes Framework for Quick Style-->
+    <link rel="stylesheet" href="css/fasthelpers.css">
+    <title>Weather Journal | Get your City Weather by Zip Code</title>
+  </head>
+  <body>
+    <div id = "app">
+      <div class="container">
+        <h1 class ="holder headline text-center h2 white-bg shadow radius p-1 text-primary">Weather Journal App</h1>
+    
+        <form class="mx-auto">
+          <div class ="holder zip">
+            <div class="form-group">
+              <label for="zip" class="text-dark bold">Enter a City Zipcode</label>
+              <input type="text" id="zip" placeholder="Enter Zip Code here" class="form-control shadow">
+            </div>
+          </div>
+          <div class ="holder feel">
+            <div class="form-group">
+              <label for="feelings" class="text-dark bold">How are you feeling today?</label>
+              <textarea class= "myInput form-control shadow" id="feelings" placeholder="Enter your feelings here" rows="9" cols="50"></textarea>
+            </div>
+          </div>
+          <button id="generate" type = "submit" class="btn btn-lg btn-primary btn-block shadow mb-4"> Generate </button>
+        </form>
+      
+        <div class ="holder entry white-bg shadow border radius p-2">
+          <div id = "entryHolder">
+            <div id = "date" class="text-light bg-primary rounded p-1 bold my-1"></div> 
+            <div id = "city" class="text-light bg-primary rounded p-1 bold my-1"></div>
+            <div id = "temp" class="text-light bg-primary rounded p-1 bold my-1"></div>
+            <div id = "content" class="text-light bg-primary rounded p-1 bold my-1"></div>
+          </div>
+        </div>
+        <footer class="text-center mt-2">
+          <span class="text-dark bold lead">&#64; All Copyrights are reserved 2020</span>
+          <p class="text-dark bold">Developed by<span class="white-bg shadow rounded d-inline-block p-1 bold text-primary ml-1">_HaWaRy_</span></p>
+        </footer>   
+      </div>
+    </div>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>

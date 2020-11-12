@@ -1,0 +1,17 @@
+body {
+    background: url('../cloud.jpg');
+    font-family: 'Cairo', sans-serif;
+}
+
+#app {
+    margin: 50px auto;
+    max-width: 400px;
+}
+
+textarea {
+    resize: none!important;
+}
+
+.holder.entry {
+    display: none;
+}
