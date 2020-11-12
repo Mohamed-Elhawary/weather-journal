@@ -1,7 +1,7 @@
 # Weather Journal 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0d845386-9c77-4c7e-acb8-357d69efd1c6/deploy-status)](https://app.netlify.com/sites/weather-journal14/deploys)
 
-An Asynchronous Weather Web Application, let you get the current Temperature of any City depending on its ZIP Code, built with JSON API, Node JS Enviroment & Express Framework to create Server Side for Storing the Retrieved Data.  
+An Asynchronous Weather Web Application, let you get the current Temperature of any City depending on its ZIP Code, built with JSON API, Node JS Environment & Express Framework to create Server Side for Storing the Retrieved Data.  
 
 ![Screenshot](preview.png) 
 
