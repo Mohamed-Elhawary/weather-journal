@@ -1,15 +1,16 @@
 /* Global Variables */
-let baseUrl     = 'https://api.openweathermap.org/data/2.5/forecast?zip=',
-    key         = '&appid=bd0b9a880eb0c31cb72b42899f7165b0',
-    generateBtn = document.querySelector("#generate"),
-    dateDiv     = document.querySelector("#date"),
-    cityDiv     = document.querySelector("#city"),
-    tempDiv     = document.querySelector("#temp"),
-    contentDiv  = document.querySelector("#content"),
-    holderEntry = document.querySelector(".holder.entry"),
-    // Create a new date instance dynamically
-    date        = new Date(),
-    newDate     = date.getMonth() + 1 + '.'+ date.getDate()+'.'+ date.getFullYear();
+const   baseUrl     = 'https://api.openweathermap.org/data/2.5/forecast?zip=';
+const   key         = '&appid=bd0b9a880eb0c31cb72b42899f7165b0&units=imperial';
+let     generateBtn = document.querySelector("#generate"),
+        dateDiv     = document.querySelector("#date"),
+        cityDiv     = document.querySelector("#city"),
+        tempDiv     = document.querySelector("#temp"),
+        contentDiv  = document.querySelector("#content"),
+        holderEntry = document.querySelector(".holder.entry"),
+        error       = document.querySelector(".error"),
+        // Create a new date instance dynamically
+        date        = new Date(),
+        newDate     = date.getMonth() + 1 + '.'+ date.getDate()+'.'+ date.getFullYear();
 
 // When clicking on the generate button
 generateBtn.addEventListener("click", generate)
@@ -29,6 +30,11 @@ function generate(e) {
 
             // Call the updateUI function to generate the UI
             updateUI();
+        }).catch(() => {
+            error.classList.remove("d-none");
+            setTimeout(() => {
+                error.classList.add("d-none");            
+            }, 2000);
         });
 }
 
