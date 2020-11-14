@@ -20,9 +20,16 @@ function generate(e) {
     e.preventDefault();
     const ZIP      = document.querySelector("#zip").value.trim();
     const FEELINGS = document.querySelector("#feelings").value.trim();
-
-    // Call the getWeather function to get data by API key
-    getWeather(baseUrl, ZIP, key)
+    
+    if (ZIP == "") {
+        error.classList.remove("d-none");
+        setTimeout(() => {
+                error.classList.add("d-none");
+                error.querySelector("span").innerHTML = "Zip Code Field Can not be Empty!!"            
+        }, 2000);
+    } else {
+        // Call the getWeather function to get data by API key
+        getWeather(baseUrl, ZIP, key)
         .then((data) => {
             console.log(data);
             // Call the postData function to add data to the post route
@@ -32,10 +39,12 @@ function generate(e) {
             updateUI();
         }).catch(() => {
             error.classList.remove("d-none");
+            error.querySelector("span").innerHTML = "Please Enter Valid Zip Code!!"
             setTimeout(() => {
                 error.classList.add("d-none");            
             }, 2000);
         });
+    }
 }
 
 // getWeather function to get data by API key
