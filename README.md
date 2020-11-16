@@ -66,6 +66,8 @@ Create API credentials on [OpenWeatherMap.com](https://www.OpenWeatherMap.com)
 
 * [Bootstrap 4](https://getbootstrap.com/)
 
+* [FastHelpers Framework [FHF]](https://github.com/Mohamed-Elhawary/fasthelpers-framework-fhf)  
+
 ## Google Fonts  
 
 * [Cairo](https://fonts.google.com/specimen/Cairo) 
