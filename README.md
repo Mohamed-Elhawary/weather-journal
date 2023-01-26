@@ -1,25 +1,24 @@
 # Weather Journal 
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0d845386-9c77-4c7e-acb8-357d69efd1c6/deploy-status)](https://app.netlify.com/sites/weather-journal14/deploys)
 
-Weather Journal is an asynchronous weather app that allows you to get the current temperature of any city depending on its ZIP code, built with JSON API, Node JS environment & Express framework to create server-side for storing the retrieved data.  
+Weather Journal is an asynchronous weather App that allows you to get the current temperature of any city depending on its ZIP code, built with JSON API, Node JS environment & Express framework to create server-side for storing the retrieved data.  
 
 ![Screenshot](preview.png) 
 
 ## Objective  
 
-This App is about working with web API's and asynchronous code, creating a web app that uses [OpenWeatherMap.com](https://www.OpenWeatherMap.com) API to get weather based on user's location, and dynamically update UI.
+This App is working through web API's and asynchronous code. It uses [OpenWeatherMap.com](https://www.OpenWeatherMap.com) API to get weather based on user's location, then dynamically update the UI.
 
 ## Demo
  
 ![weather-journal-get-your-city-we](https://user-images.githubusercontent.com/69651552/98997281-f09cb780-253c-11eb-91af-87cb76c1267c.gif)
 
-## Instructions, Building & Getting Started  
-
-* Note that you can not run the App in the Client Side Locally, it must be runned as a Server Side App, so you can follow the few Next Steps :-
+## Instructions, Building & Get Started
 
     - 1- Fork, clone or download this repository to your local machine.
     - 2- Be sure that you install the [Node.js](https://nodejs.org/en/) environment in your machine.
-    - 3- Open your terminal and Be sure that you are inside the correct destination of the App, while you must be in the same path of the server.js file and the website folder.
+    - 3- Open your terminal and be sure that you are inside the correct destination of the App, while you must be in the same path of the server.js file.
     - 4- inside your terminal run these commands:-
     
         * to install dependencies.
@@ -30,11 +29,11 @@ This App is about working with web API's and asynchronous code, creating a web a
         ```
         node server.js
         ```
-    - 5- Once the app server is running visit (localhost:8000) in the browser to view the app and now you can treat with it as shown above in the Demo.
+    - 5- Once the App server is running visit (localhost:8000) in the browser to view the App and now you can treat with it as shown above in the Demo.
     
-## What Happened Behind the Scenes  
+## What happened behind the scenes  
 
-- Make a get request to OpenWeatherMap API to get the location's temperature
+- Send a GET request to OpenWeatherMap API to get the location's temperature.
 - Post a data object to the Express Server.
 - This data object is the end-user's input which returns the specific OpenWeatherMap API data with a dynamically-generated date.
 - Get data from the Express Server and update the UI dynamically.
@@ -43,7 +42,7 @@ This App is about working with web API's and asynchronous code, creating a web a
 
 * HTML
 * CSS
-* Vanilla JS version ES2015/ES6  
+* Vanilla JS 
 
 ## Enviroment  
 
@@ -57,11 +56,8 @@ This App is about working with web API's and asynchronous code, creating a web a
 ## API'S
 
 * JSON 
+>> API credentials on [OpenWeatherMap.com](https://www.OpenWeatherMap.com)   
 
-## API Credentials
-
-Create API credentials on [OpenWeatherMap.com](https://www.OpenWeatherMap.com)  
-  
 ## Frameworks 
 
 * [Bootstrap 4](https://getbootstrap.com/)
@@ -74,25 +70,23 @@ Create API credentials on [OpenWeatherMap.com](https://www.OpenWeatherMap.com)
 
 ## Author
 
-* Mohamed Elhawary  
+* [Mohamed Elhawary](https://www.linkedin.com/in/mohamed-elhawary14/)
 
-## Contact Me by my Social Accounts
+## Contact me through my social accounts
 
-* Email: mohamed.k.elhawary@gmail.com  
-
-* [Linkedin](https://www.linkedin.com/in/mohamed-elhawary14/)
-
-* [Codepen](https://codepen.io/Mohamed-ElHawary)
-
+* Email: mohamed.k.elhawary@gmail.com
+* [LinkedIn](https://www.linkedin.com/in/mohamed-elhawary14/)
+* [Github](https://github.com/Mohamed-Elhawary)  
 * [Behance](https://www.behance.net/mohamed-elhawary14)
-
-## Deploy with Me
-
-Feel Free to Deploy it with me, send Issues or a Pull Request and i'll deal with you, just test it First.
+* [Codepen](https://codepen.io/Mohamed-ElHawary) 
 
 ## Notices
 
-- This Application is a Practical Project from Udacity Nanodegree Program in the Field of Web Development Professional Track.
+- This App is a practical project from Udacity Course [Nanodegree Program - Web Development Professional Track](https://www.udacity.com/course/intro-to-programming-nanodegree--nd000)
+
+## Certificate
+
+[Course Certificate](Certificate.pdf)
 
 ## License
 
