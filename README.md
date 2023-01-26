@@ -2,13 +2,9 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0d845386-9c77-4c7e-acb8-357d69efd1c6/deploy-status)](https://app.netlify.com/sites/weather-journal14/deploys)
 
-Weather Journal is an asynchronous weather App that allows you to get the current temperature of any city depending on its ZIP code, built with JSON API, Node JS environment & Express framework to create server-side for storing the retrieved data.  
+Weather Journal is an asynchronous weather App that allows you to get the current temperature of any city depending on its ZIP code. It depends on the API of OpenWeatherMap website. 
 
 ![Screenshot](preview.png) 
-
-## Objective  
-
-This App is working through web API's and asynchronous code. It uses [OpenWeatherMap.com](https://www.OpenWeatherMap.com) API to get weather based on user's location, then dynamically update the UI.
 
 ## Demo
  
@@ -44,29 +40,23 @@ This App is working through web API's and asynchronous code. It uses [OpenWeathe
 * CSS
 * Vanilla JS 
 
-## Enviroment  
+## Frameworks 
 
-* Node JS with Express Framework  
+* [Bootstrap 4](https://getbootstrap.com/)
+* [FastHelpers Framework [FHF]](https://github.com/Mohamed-Elhawary/fasthelpers-framework-fhf)  
+
+## API
+
+* [OpenWeatherMap](https://www.OpenWeatherMap.com)   
 
 ## Dependencies 
 
 * CORS
 * Body-Parser
 
-## API'S
+## Enviroment  
 
-* JSON 
->> API credentials on [OpenWeatherMap.com](https://www.OpenWeatherMap.com)   
-
-## Frameworks 
-
-* [Bootstrap 4](https://getbootstrap.com/)
-
-* [FastHelpers Framework [FHF]](https://github.com/Mohamed-Elhawary/fasthelpers-framework-fhf)  
-
-## Google Fonts  
-
-* [Cairo](https://fonts.google.com/specimen/Cairo) 
+* Node JS with Express Framework to create server-side for storing the retrieved data
 
 ## Author
 
