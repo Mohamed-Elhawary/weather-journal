@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0d845386-9c77-4c7e-acb8-357d69efd1c6/deploy-status)](https://app.netlify.com/sites/weather-journal14/deploys)
 
-Weather Journal is an asynchronous weather App that allows you to get the current temperature of any city depending on its ZIP code. It depends on the API of OpenWeatherMap website. 
+Weather Journal is an asynchronous weather App that allows you to get the current temperature of any city according to its ZIP code. It depends on the API of OpenWeatherMap website. 
 
 ![Screenshot](preview.png) 
 
