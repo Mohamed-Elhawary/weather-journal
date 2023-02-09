@@ -11,7 +11,7 @@ Weather Journal is an asynchronous weather App that allows you to get the curren
 ## Instructions, Building & Get Started
 
     - 1- Fork, clone or download this repository to your local machine.
-    - 2- Be sure that you install the [Node.js](https://nodejs.org/en/) environment in your machine.
+    - 2- Be sure that you install the Node.js environment in your machine.
     - 3- Open your terminal and be sure that you are inside the correct destination of the App, while you must be in the same path of the server.js file.
     - 4- inside your terminal run these commands:-
     
@@ -23,7 +23,7 @@ Weather Journal is an asynchronous weather App that allows you to get the curren
         ```
         node server.js
         ```
-    - 5- Once the App server is running visit (localhost:8000) in the browser to view the App and now you can treat with it as shown above in the Demo.
+    - 5- Once the App server is running, visit (localhost:8000) in the browser to view the App and now you can treat with it as shown above in the Demo.
     
 ## What happened behind the scenes  
 
