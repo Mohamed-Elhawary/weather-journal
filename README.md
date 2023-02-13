@@ -6,7 +6,7 @@ Weather Journal is a forecasting weather App that allows you to get the current 
 
 ## Demo
  
-![weather-journal-get-your-city-we](https://user-images.githubusercontent.com/69651552/98997281-f09cb780-253c-11eb-91af-87cb76c1267c.gif)
+![Demo](https://user-images.githubusercontent.com/69651552/98997281-f09cb780-253c-11eb-91af-87cb76c1267c.gif)
 
 ## Instructions, Building & Get Started
 
@@ -32,7 +32,7 @@ Weather Journal is a forecasting weather App that allows you to get the current 
 - This data object is the end-user's input which returns the specific OpenWeatherMap API data with a dynamically-generated date.
 - Get data from the Express Server and update the UI dynamically.
 
-## Built With
+## Built with
 
 * HTML
 * CSS
@@ -40,7 +40,7 @@ Weather Journal is a forecasting weather App that allows you to get the current 
 
 ## Frameworks 
 
-* [Bootstrap 4](https://getbootstrap.com/)
+* [Bootstrap](https://getbootstrap.com/)
 * [FastHelpers Framework [FHF]](https://github.com/Mohamed-Elhawary/fasthelpers-framework-fhf)  
 
 ## API
@@ -56,18 +56,6 @@ Weather Journal is a forecasting weather App that allows you to get the current 
 
 * Node JS with Express Framework to create server-side for storing the retrieved data
 
-## Author
-
-* [Mohamed Elhawary](https://www.linkedin.com/in/mohamed-elhawary14/)
-
-## Contact me through my social accounts
-
-* Email: mohamed.k.elhawary@gmail.com
-* [LinkedIn](https://www.linkedin.com/in/mohamed-elhawary14/)
-* [Github](https://github.com/Mohamed-Elhawary)  
-* [Behance](https://www.behance.net/mohamed-elhawary14)
-* [Codepen](https://codepen.io/Mohamed-ElHawary) 
-
 ## Notices
 
 - This App is a practical project from Udacity Course [Nanodegree Program - Web Development Professional Track](https://www.udacity.com/course/intro-to-programming-nanodegree--nd000)
@@ -75,6 +63,18 @@ Weather Journal is a forecasting weather App that allows you to get the current 
 ## Certificate
 
 [Course Certificate](Certificate.pdf)
+
+## Author
+
+* [Mohamed Elhawary](https://www.linkedin.com/in/mohamed-elhawary14/)
+
+## Contact me through my social accounts
+
+* Email: mohamed.k.elhawary@gmail.com
+* [Linkedin](https://www.linkedin.com/in/mohamed-elhawary14/)
+* [Github](https://github.com/Mohamed-Elhawary)  
+* [Behance](https://www.behance.net/mohamed-elhawary14)
+* [Codepen](https://codepen.io/Mohamed-ElHawary) 
 
 ## License
 
